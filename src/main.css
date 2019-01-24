@@ -1,0 +1,206 @@
+body {
+    background: rgb(17, 16, 16);
+}
+
+.button-new {
+    position: relative;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: 700;
+    color: rgb(209,209,217);
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .4em 0em;
+    outline: none;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    box-shadow:
+    0 1px rgba(255,255,255,.2) inset,
+    0 3px 5px rgba(0,1,6,.5),
+    0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+
+.button-new:hover {
+    background: rgb(77, 170, 113);
+}
+
+.operation-tk {
+    position: realtive;
+    margin: 0 auto;
+    top: 0px;
+    width: 650px;
+    height: auto;
+    background: rgb(44, 44, 42);
+}
+
+.operation-tk div {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.operation-tk button {
+    margin-bottom: 25px;
+}
+
+.operation-tk span {
+    color: rgb(245, 238, 238);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.operation-tk h3 {
+    text-align: center;
+    color: rgb(247, 229, 229);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.operation-tk input {
+    background: DarkSlateGrey;
+    color: greenyellow;
+    font-size: 16;
+    border: 0px;
+    width: 200px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+.rm-connection {
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    width: auto;
+    background: rgb(189, 204, 189);
+    border-style: solid;
+	border-color: rgb(165, 190, 214);
+    border-width: thin;
+    display: table;
+}
+
+.rm-connection div {
+    position: relative;
+    width: 200px;
+}
+
+.rm-connection input {
+    background: DarkSlateGrey;
+    color: greenyellow;
+    font-size: 16px;
+    text-align: center;
+    border: 0px;
+    width: 200px;
+    height: 25px;
+    display: table;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.shell {
+    position: relative;
+    margin: 0 auto;
+    width: 650px;
+    height: 727px;
+    border-style: solid;
+	border-color: rgb(165, 190, 214);
+    border-width: thin;
+}
+
+.shell__buttons {
+    background: rgb(44, 44, 42);
+    float: left;
+    width: 50px;
+    height: 700px;
+    position: relative;
+    
+}
+
+.shell__buttons__item {
+    position: relative;
+    background: rgb(114, 82, 82);
+    width: 100%;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 25px;
+}
+
+.shell__buttons__item:hover {
+    background: rgb(75, 65, 65);
+}
+
+.shell__host-connect {
+    position: relative;
+    height: 27px;
+    background: rgb(150, 150, 144);
+}
+
+.shell__host-connect div {
+    float: left;
+    display: inline-table;
+}
+
+.shell__host-connect__hostname {
+    color: rgb(45, 45, 45);
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shell__host-connect input {
+    background: DarkSlateGrey;
+    color: greenyellow;
+    font-size: 16px;
+    border: 0px;
+    width: 200px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shell__viewer {
+    background: black;
+    width: 600px;
+    height: 700px;
+    overflow-y: scroll;
+    float: left;
+}
+
+.shell__viewer__line {
+    background: black;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.shell__viewer__line div {
+    height: 20px;
+    display: inline-block;
+}
+
+.shell__viewer__line input {
+    margin-left: 5px;
+    background: black;
+    color: greenyellow;
+    border: 0px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+}
+
+.shell__viewer__line__remote-host {
+    color: violet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shell__viewer__line__history {
+    padding: 5px;
+    white-space: pre-line;
+    font-size: 14px;
+    color: rgb(145, 218, 29);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shell__viewer__line__result {
+    white-space: pre-line;
+    font-size: 14px;
+    color: rgb(188, 196, 175);
+    font-family: 'Courier New', Courier, monospace;
+}
